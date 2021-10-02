@@ -2,19 +2,70 @@
   flex: 1 1 auto;
 }
 
+
 .mat-toolbar {
   position: fixed;
+  font-family: "GreatVibes";
+  font-size: 30px;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
 }
 
-.header-div{
- height : 2500px;
- width: 100%;
- background-color : #00838F;
+.header-div {
+  overflow: hidden;
+  position: relative;
+  margin-top: 56px;
+  height: 330px;
+  display: flex;
+  background-color: #00838F;
 }
 
-.header-div2{
- height : 2500px;
- width: 100%;
- background-color : blue;
+.header-headline {
+  font-family: "GreatVibes";
+  letter-spacing: normal;
+  color: #fff;
+  font-size: 60px;
+  line-height: 56px;
+  margin: 15px 5px;
 }
 
+.header-subheadline {
+  letter-spacing: normal;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 28px;
+  margin: 15px 0 25px;
+}
+
+.card-container-div {
+  margin: 40px;
+  display: flex;
+}
+
+.gift-card {
+  max-width: 400px;
+  min-width: 200px;
+  margin: 10px;
+}
+
+div {
+  display: block;
+}
+
+body {
+  font-family: Roboto, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
+  margin: 0;
+}
+
+.docs-header-section {
+  width: 90%;
+  position: absolute;
+  z-index: 0;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
