@@ -42,12 +42,9 @@
 
 .card-container-div {
   margin: 40px;
-  display: flex;
 }
 
 .gift-card {
-  max-width: 400px;
-  min-width: 200px;
   margin: 10px;
 }
 
